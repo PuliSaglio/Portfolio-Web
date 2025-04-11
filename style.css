@@ -1,0 +1,235 @@
+body{
+    background: linear-gradient(to right, #f5f7fa, #e8f0fe);
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+hr{
+ width: 90%;
+}
+
+.navbar *,
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.nav-links li a:hover {
+    background-color: #f1f1f1;
+    color: #0077cc;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-pessoal{
+    background-color: white;
+    width: 25%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.social-media:hover{
+        transform: translateY(-5px);
+}
+
+.card-pessoal h2{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.card-pessoal h3{
+    margin-top: 0;
+    color: #848483;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.card-apresentacao{
+    background-color: white;
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-apresentacao h1, .card-apresentacao p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card-apresentacao h1{
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.card-apresentacao p {
+    font-size: small;
+    line-height: 25px;
+}
+
+.card-apresentacao h2{
+    padding-left: 40px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#container-socials{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+#card-info-pessoal{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f5f9;
+    width: 75%;
+    border-radius: 15px;
+    height: 55%;
+    justify-content: space-evenly;
+    background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card-info-pessoal:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+#card-info-pessoal h4{
+    color: #333;
+    font-weight: 600;
+}
+
+#card-info-pessoal p{
+    font-size: small;
+    color: #1f1f1f;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.info img{
+    width: 20px;
+    height: 20px;
+}
+
+.informacoes-pessoais h4, p{
+    margin: 0px 0px;
+    padding-left: 10px;
+}
+
+.social-media{
+    background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+.social-media img{
+    height: 35px;
+}
+
+#secao-stack{
+    display: flex;
+    justify-content: space-evenly;
+    height: 348px;
+    align-items: center;
+}
+
+.card-stack{
+    background-color: #ffebd1;
+    border-radius: 10px;
+    width: 40%;
+    height: 80%;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-stack:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-stack p {
+    margin-bottom: 21.06px;
+}
+
+.image-title{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.image-title img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.card-stack:first-child{
+    background: linear-gradient(135deg, #ffe0b2, #ffcc80);
+}
+
+.card-stack:last-child{
+    background: linear-gradient(135deg, #ffecb3, #ffd180);
+}
